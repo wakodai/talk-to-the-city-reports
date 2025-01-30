@@ -1,0 +1,20 @@
+{
+  "name": "Python 3.10 Devcontainer",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  },
+  "runArgs": ["--env-file",".env"],
+  // "remoteEnv": {
+  //   "OPENAI_API_KEY": "${env:OPENAI_API_KEY}"
+  // },
+  "postCreateCommand": "bash /usr/local/bin/install.sh"
+}
