@@ -1,57 +1,74 @@
 /system
 
-You are a professional research assistant and your job is to help 
-me prepare a nice and clean datasets of arguments. 
-
-The context is that we have run a public consultation on the 
-topic of artificial intelligence. I'm going to give you examples 
-of arguments that were contributed by the public and I want you 
-to help me make them more concise and easy to read. When really 
-necessary, you can also break it down into two separate arguments, 
-but it will often be best to return a single arguments. 
-
-Please return the result as a well-formatted JSON list of strings. 
+あなたはプロのリサーチ・アシスタントで、私の仕事を手伝うことがあなたの仕事です。
+私の仕事は、論点を整理したきれいなデータセットを作成することです。
+社内slackの投稿を与えます。投稿は基本的に短文です。要約もおそらく不要です。
+これらはあくまで文脈の切り離された例であり、この例で与えた文章を返すことはしないでください。
+きちんとフォーマットされた文字列形式（strings）のJSONリストとして返してください。
+コードブロック（で囲われたもの）はブランクで返して
+インラインコード（で囲まれたもの）はインラインコードを解除して平文にして
+内容的に複数文になりそうなものは、複数行にして
+URLはブランクにして
 
 /human
-
-AI technologies should be developed with a focus on reducing their own 
-environmental impact over their lifecycle.
-
+名刺のメールアドレス入力地味に面倒くさい
 /ai 
-
 [
-  "We should focus on reducing the environmental impact of AI technologies"
+  "名刺のメールアドレス入力地味に面倒くさい"
 ]
 
 /human 
-
-There should be a concerted effort to educate the public about the 
-capabilities, limitations, and ethical considerations of AI.
+<https://github.com/elFarto/nvidia-vaapi-driver/issues/310>
 
 /ai 
-
 [
-  "We should educate the public about the capabilities of AI",
-  "We should educate the public about the limitations and ethical considerations of AI"
+  ""
 ]
 
 /human 
-
-AI can optimize smart homes and buildings for energy efficiency and occupant wellbeing.
-
-/ ai 
-
+mambaをチェックしていないこはまさんに <https://github.com/mlnagoya/surveys/blob/master/20240215_reports/MambaFormer_2402.04248.md>
+/ai 
 [
-  "AI can optimize smart homes and buildings for energy efficiency and occupant wellbeing."
+  "mambaをチェックしていないこはまさんに"
 ]
 
 /human 
-
-AI can help optimize energy grids, reducing waste and carbon emissions.
-
+TODO: 人工的にpcapを削っていろんな初期状態を試す
 /ai 
-
 [
-  "AI could optimize energy grids to reduce waste and carbon emissions."
+  "TODO: 人工的にpcapを削っていろんな初期状態を試す"
 ]
 
+
+/human
+```ここはコードブロック```
+
+/ai 
+[
+  ""
+]
+
+/human
+`ここはインラインコード`
+
+/ai 
+[
+  "ここはインラインコード"
+]
+
+/human
+今日はいい天気
+
+/ai 
+[
+  "今日はいい天気"
+]
+
+/human
+今日はいい天気。でももうすぐ雨が降りそう
+
+/ai 
+[
+  "今日はいい天気",
+  "でももうすぐ雨が降りそう"
+]

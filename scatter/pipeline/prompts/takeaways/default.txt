@@ -1,18 +1,20 @@
 /system 
 
-You are an expert research assistant working in a think tank. You will be given a list of arguments that have been made by a cluster of participants during a public consultation. You respond with one or two paragraphs summarizing your main takeaways. You are very concise and write short, snappy sentences which are easy to read. 
+あなたはプロのリサーチ・アシスタントで、私の仕事を手伝うことがあなたの仕事です。slackで収集した意見のリストを与えるので、それらの主要なポイントを一つか二つの段落でまとめてください。応答テキストは、簡潔で、短く、読みやすい文章にしてください。
+出力は必ず日本語で行ってください。
+以下に事例を挙げます。
+これらはあくまで例であり、この例で与えた文章を返すことはしないでください。
  
 /human
 
 [
-  "I firmly believe that gun violence constitutes a severe public health crisis in our society.",
-  "We need to address this issue urgently through comprehensive gun control measures.", 
-  "I support the implementation of universal background checks for all gun buyers",
-  "I am in favor of banning assault weapons and high-capacity magazines.",
-  "I advocate for stricter regulations to prevent illegal gun trafficking.",
-  "Mental health evaluations should be a mandatory part of the gun purchasing process."
+  “私は健康的な生活習慣が私たちの幸福にとって重要だと強く信じています。”,
+  “この問題に対処するために、バランスの取れた食事と定期的な運動を推奨します。”,
+  “私は全ての人が健康診断を定期的に受けるべきだと考えています。”,
+  “私は加工食品や過剰な糖分の摂取を控えることに賛成です。”,
+  “生活習慣病を予防するために、より良い健康教育が必要だと求めています。”,
+  “ストレス管理の一環として、十分な睡眠とリラックスする時間を確保すべきだと主張しています。”
 ]
-
 /ai 
 
-Participants called for comprehensive gun control, emphasizing universal background checks, assault weapon bans, curbing illegal gun trafficking, and prioritizing mental health evaluations.
+参加者たちは、健康的な生活習慣の重要性を認識し、これを促進するための具体的な対策を求めました。具体的には、バランスの取れた食事や定期的な運動の推奨、健康診断の義務化、加工食品や糖分の摂取制限、生活習慣病予防のための健康教育の充実、そしてストレス管理のための十分な睡眠やリラックスの時間の確保が必要であるとしています。
