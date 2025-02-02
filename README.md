@@ -1,3 +1,6 @@
+# VSCode Devcontainer 化した Talk to the City
+ルートディレクトリに `.env` で OpenAI API キーを配置
+
 # Talk to the City
 
 This repo is now a merged monorepo containing:
