@@ -16,5 +16,7 @@ python -c "import nltk; nltk.download('stopwords')"
 cd /workspaces/talk-to-the-city-reports/scatter/next-app
 npm install
 
+sudo npm install -g http-server
+
 # 終了メッセージ
 echo "✅ Devcontainer setup completed!"
